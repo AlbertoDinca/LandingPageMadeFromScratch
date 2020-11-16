@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Basic Landing Page Template</title>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+          <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+          <nav>
+                    <div class="logo">
+                              <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="user">
+                    </div>
+                    <ul>
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">Portfolio</a></li>
+                              <li><a href="#">Blog</a></li>
+                              <li><a href="#">Contact Me</a></li>
+                    </ul>
+          </nav>
+          <header>
+                    <button id="toggle" class="toggle">
+                              <i class="fa fa-bars fa-2x"></i>
+                    </button>
+                    <h1>Basic Landing Page</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, incidunt?</p>
+                    <button class="cta-btn" id="open">Sign Up</button>
+          </header>
+          <div class="container">
+                    <h2>What is this page abou?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo deserunt odio dignissimos
+                              ipsam, repudiandae sit, dicta obcaecati quasi iusto, ex asperiores error itaque magnam!
+                              Culpa temporibus eum reprehenderit nam aspernatur.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus aut debitis itaque. Molestias,
+                              fugiat nisi. Itaque perspiciatis veritatis voluptatem laudantium?</p>
+                    <h2>Tell me more</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum libero doloremque sint quo
+                              laudantium voluptatum officiis. Non, aliquid. Accusantium id mollitia at labore ex
+                              voluptates dolore itaque placeat error odit voluptatem, libero, atque nulla, architecto
+                              rem accusamus molestias aliquam molestiae?</p>
+                    <h2>Benefits</h2>
+                    <ul>
+                              <li>Lifetime Access</li>
+                              <li>30 Day Money Back</li>
+                              <li>Tailored Customer Support</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo consequatur laboriosam facilis,
+                              minus, unde fuga quisquam dolorem doloremque, cum a ratione tenetur obcaecati! Rem atque
+                              mollitia numquam odio labore tenetur voluptas accusantium, quos nesciunt, necessitatibus
+                              repellendus nihil ad. Omnis deleniti rem repudiandae rerum vitae impedit nemo totam!
+                              Incidunt, deleniti quia error aut, iusto quae doloribus beatae consequuntur quis
+                              cupiditate iste! Corporis quo amet animi, cum hic culpa modi cumque excepturi.</p>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal-container" id="modal">
+                    <div class="modal">
+                              <button class="close-btn" id="close">
+                                        <i class="fa fa-times"></i>
+                              </button>
+                              <div class="modal-header">
+                                        <h3>Sign Up</h3>
+                              </div>
+                              <div class="modal-content">
+                                        <p>Register with us to get offers, support and more</p>
+                                        <form class="modal-form">
+                                                  <div>
+                                                            <label for="name">Name</label>
+                                                            <input class="form-input" type="text"
+                                                                      placeholder="Enter Name" id="name">
+                                                  </div>
+                                                  <div>
+                                                            <label for="email">Email</label>
+                                                            <input class="form-input" type="email"
+                                                                      placeholder="Enter Email" id="email">
+                                                  </div>
+                                                  <div>
+                                                            <label for="password">Password</label>
+                                                            <input class="form-input" type="password"
+                                                                      placeholder="Enter Password" id="password">
+                                                  </div>
+                                                  <div>
+                                                            <label for="password2">Confirm Password</label>
+                                                            <input class="form-input" type="password"
+                                                                      placeholder="Confirm Password" id="password2">
+                                                  </div>
+                                                  <input type="submit" value="Submit" class="submit-btn">
+                                        </form>
+                              </div>
+                    </div>
+          </div>
+          <script src="./script.js"></script>
+</body>
+
+</html>
